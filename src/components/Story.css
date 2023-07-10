@@ -1,0 +1,53 @@
+.Story {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, white 25%, #24a250 25%, #24a250 75%);
+  }
+  
+  .Customer-Story-Container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Customer-Story-Image {
+    width: 550px;
+    height: 375px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    outline: 3px solid orange;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .Customer-Story-Image:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .Customer-Testimonial-Section {
+    width: 700px;
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+  
+  .Customer-Testimonial-Header {
+    position: relative;
+    bottom: 30px;
+    color: #1d5ba4;
+  }
+  
+  .Customer-Testimonial-Text {
+    position: relative;
+    left: 25px; /* Shifts the paragraph 50 pixels to the right */
+    font-size: 24px;
+    color: #FAF8EC;
+    margin-bottom: 20px; /* Adds more space between elements */
+  }
+
+  
+  .Customer-Testimonial-Button {
+    color: #1d5ba4;
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    margin: 20px 80px; /* Adds 20 pixels of margin on top and bottom, and 50 pixels of margin on the left and right */
+  }
+  
+  
